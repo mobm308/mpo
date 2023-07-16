@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biomedical</title>
+    <style>
+        p{
+            border: 2px solid blue;               
+        }
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            background: #222;
+            padding: 5px 20px;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .menu{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu li{
+            font-size: 16px;
+            padding: 15px 5px;
+
+        }
+        .menu li a {
+            display: block;
+        }
+        .toggle{
+
+        }
+        .bar{
+            background: #999;
+            display: inline-block;
+            height: 2px;
+            position: relative;
+            width: 18px;}
+        .bar::before,.bar:after{
+            /*background: #333;*/
+            background: rgb(red, green, blue);
+            content:"";
+            display: inline-block;
+            height: 2px;
+            position: relative;
+            width: 18px;}
+            .bar::before{
+                top: 5px;
+            }
+            .bar:after{
+                top: -5px;}
+        
+    </style>
+</head>
+<body>
+   <div>
+    <nav>
+        <ul class="menu">
+        <li class="logo"><a href="">home</a></li>
+        <li><a href="item">Services</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">sing up</a></li>
+        <li><a href="">login</a></li>
+        <li class="toggle"><a href="#"><span class="bar"></span></a></li>
+        </ul>
+     </nav>
+   </div>
+<div class="pter">
+    <form >
+    <h1 style="color: aqua; text-align: center;">  Biomedical Engineering </h1><br/>
+    <form style="text-align: center;"><br/>
+    </form>
+    <form  style="text-align: center;">
+        <input type="text" placeholder="type..." name="">
+        <input type="button" value="search"></form>
+    </form>
+    <hr>
+</div> 
+<div class="par">
+    <h2 style="text-align: center;">service</h2>
+    <p >Biomédical Engineering Services offre aux cliniques et cabinets un accompagnement pour le choix, l’achat et l’acquisition des équipements, une assistance technique pour l’évaluation et l’inventaire d’équipement biomédicaux, une expertise pour l’installation des nouveaux équipements et la mise en place de politique de maintenance préventive et corrective pour assurer la fonctionnalité de l’équipement sur une longue période et la formation des utilisateurs sur divers technologies biomédicales. Nous aidons aussi les structures de santé dans le suivi des contrats de maintenance établis avec des entreprises. Les secteurs cibles sont le bloc opératoire, l’imagerie diagnostic le laboratoire, la Stérilisation, Ophtalemo et Stomatologie</p><br/>
+    <h2 style="text-align: center ;">benifits</h2> 
+    <p>Biomedical engineers focus on helping health care facilities provide high-quality care to patients, which can result in a rewarding career. If you're interested in becoming a biomedical engineer, it's important to understand every aspect of the position, including positive aspects and drawbacks. Understanding the advantages and disadvantages of pursuing this field can help you choose a career path that fits your goals and preferences and develop the skills necessary to succeed.</p>
+    <br/>
+    <hr>
+    <table border="1">
+        <tr>
+            <th>Gender</th>
+            <th>percentage</th>
+         </tr>
+         <tr>
+            <td>male</td>
+            <td>75%</td>
+         </tr>
+         <tr>
+            <td>female</td>
+            <td>25%</td>
+         </tr>
+    </table>
+    <hr>
+    <iframe style="text-align: end;"     width="560" height="315" src="https://www.youtube.com/embed/KQm-gfobUm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" frameborder="0"></iframe>
+</div>
+</body>
+</html>
